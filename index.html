@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+/>
+
+  <meta name="description" content="Zeeshan Azam — BSAI student at FAST | Web Developer | Virtuous Bookkeeping">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-transparent container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <span class="za-logo" aria-hidden="true">ZA</span>
+        <span class="ms-2 brand-text">hello world</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main class="container py-5">
+    <section class="hero glass p-4 p-md-5 rounded-4 d-flex flex-column flex-md-row align-items-center gap-4">
+      <div class="hero-text flex-grow-1">
+        <h3 class="hello">Hello, I'm</h3>
+        <h1 class="display-4">Zeeshan Azam</h1>
+        <p class="lead mt-2">BSAI Student at <strong>FAST University</strong> Roll No: <strong>K250150</strong><br>
+          Web Developer • Intern at Virtuous Bookkeeping</p>
+
+        <div class="mt-4 d-flex gap-2">
+          <a class="btn btn-primary btn-glass" href="projects.html">View Projects</a>
+          <a class="btn btn-outline-light btn-glass" href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-card text-center">
+        <div class="avatar glass p-3 rounded-4">
+          <img src="image (2).jpg" alt="Zeeshan Azam" class="img-fluid rounded-3">
+        </div>
+        <div class="mt-3 small text-muted">Bowling all-rounder • Sports Society President • Scout</div>
+      </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="mt-5 grid-3">
+      <article class="mini-card glass p-3 rounded-3">
+        <h5>Work</h5>
+        <p class="mb-0">Virtuous Bookkeeping — <br><small>Intern & Staff (<a class="link-light" href="mailto:zeeshan.azam@virtuousbookkeeping.com">zeeshan.azam@virtuousbookkeeping.com</a>)</small></p>
+      </article>
+
+      <article class="mini-card glass p-3 rounded-3">
+        <h5>Study</h5>
+        <p class="mb-0">BSAI at FAST (Roll: <strong>K250150</strong>)</p>
+      </article>
+
+      <article class="mini-card glass p-3 rounded-3">
+        <h5>Skills</h5>
+        <p class="mb-0"> web dev · photo/video editor</p>
+      </article>
+    </section>
+    <!-- Projects Preview and Cool Animation -->
+<section class="mt-5">
+  <div class="row g-4">
+    <!-- Projects Column (Left) -->
+    <div class="col-lg-8">
+      <h4>Featured Projects</h4>
+      <div id="projects-preview" class="d-grid gap-3 mt-3">
+        
+        <div class="project-card glass p-3" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" alt="My-Site">
+          <h5 class="mt-2">My-Site</h5>
+          <p class="small text">A personal website where I practice and implement things that I am learning</p>
+          <a class="btn btn-sm btn-glass" href="https://zeeshanazam1.github.io/My-Site/" target="_blank">Open</a>
+        </div>
+
+        <div class="project-card glass p-3" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800" alt="drones-today">
+          <h5 class="mt-2">drones-today</h5>
+          <p class="small text">A simple Website about drones to educate people about the new technologies in drones</p>
+          <a class="btn btn-sm btn-glass" href="https://zeeshanazam1.github.io/drones-today/" target="_blank">Open</a>
+        </div>
+
+        <div class="project-card glass p-3" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=800" alt="SOS-System">
+          <h5 class="mt-2">SOS-System</h5>
+          <p class="small text">Emergency alert system designed to quickly notify authorities</p>
+          <a class="btn btn-sm btn-glass" href="https://zeeshanazam1.github.io/ISEF-SOS-System/" target="_blank">Open</a>
+        </div>
+
+      </div>
+      <div class="mt-3"><a href="projects.html" class="link-light">See all projects →</a></div>
+    </div>
+
+    <!-- Cool Animation Column (Right) -->
+    <div class="col-lg-4">
+      
+      <!-- Live Stats Widget -->
+      <div class="glass p-4 rounded-4 mb-4 position-relative overflow-hidden">
+        <h5 class="mb-3">⚡ Live Stats</h5>
+        <div class="stat-item mb-3">
+          <div class="d-flex justify-content-between align-items-center mb-1">
+            <span class="text small">Lines of Code</span>
+            <span class="fw-bold" id="linesOfCode">0</span>
+          </div>
+          <div class="stat-bar">
+            <div class="stat-fill" id="locBar"></div>
+          </div>
+        </div>
+        <div class="stat-item mb-3">
+          <div class="d-flex justify-content-between align-items-center mb-1">
+            <span class="text small">Projects Completed</span>
+            <span class="fw-bold" id="projectsCompleted">0</span>
+          </div>
+          <div class="stat-bar">
+            <div class="stat-fill" id="projectsBar" style="animation-delay: 0.2s;"></div>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="d-flex justify-content-between align-items-center mb-1">
+            <span class="text small">Coffee Consumed ☕</span>
+            <span class="fw-bold" id="coffeeCups">0</span>
+          </div>
+          <div class="stat-bar">
+            <div class="stat-fill" id="coffeeBar" style="animation-delay: 0.4s;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Code Rain Canvas -->
+      <div class="glass p-3 rounded-4 position-relative overflow-hidden">
+        <h5 class="mb-3 position-relative" style="z-index: 2;">🖥️ Code Matrix</h5>
+        <canvas id="codeRain" style="width: 100%; height: 300px; border-radius: 12px;"></canvas>
+      </div>
+
+      <!-- Tech Stack Pills -->
+      <div class="glass p-4 rounded-4 mt-4">
+        <h5 class="mb-3">🛠️ Tech Stack</h5>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="tech-pill">C++</span>
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">JavaScript</span>
+          <span class="tech-pill">HTML/CSS</span>
+          <span class="tech-pill">React</span>
+          <span class="tech-pill">AI/ML</span>
+          <span class="tech-pill">Git</span>
+          <span class="tech-pill">OOP</span>
+        </div>
+      </div>
+      <!-- Social Media Links -->
+   <div class="glass p-4 rounded-4 mt-4">
+  <h5 class="mb-3">🌐 Connect with me</h5>
+  <div class="d-flex flex-wrap gap-3">
+    <a href="https://discord.com/users/yourid" target="_blank" class="social-btn" aria-label="Discord">
+      <i class="bi bi-discord"></i> Discord
+    </a>
+    <a href="https://facebook.com/yourprofile" target="_blank" class="social-btn" aria-label="Facebook">
+      <i class="bi bi-facebook"></i> Facebook
+    </a>
+    <a href="https://instagram.com/yourprofile" target="_blank" class="social-btn" aria-label="Instagram">
+      <i class="bi bi-instagram"></i> Instagram
+    </a>
+    <a href="https://wa.me/yourwhatsappnumber" target="_blank" class="social-btn" aria-label="WhatsApp">
+      <i class="bi bi-whatsapp"></i> WhatsApp
+    </a>
+    <a href="mailto:youremail@example.com" class="social-btn" aria-label="Email">
+      <i class="bi bi-envelope-fill"></i> Email
+    </a>
+    <a href="https://youtube.com/yourchannel" target="_blank" class="social-btn" aria-label="YouTube">
+      <i class="bi bi-youtube"></i> YouTube
+    </a>
+    <a href="https://threads.net/yourprofile" target="_blank" class="social-btn" aria-label="Threads">
+      <i class="bi bi-chat-dots-fill"></i> Threads
+    </a>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="site-footer text-center py-4 mt-5">
+  <div class="container">
+    <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 0.5rem;">
+      © 2025 Zeeshan Azam. All rights reserved.
+    </p>
+    <div style="display: flex; justify-content: center; gap: 1.5rem; font-size: 1.1rem;">
+      <a href="#" style="color: #6b8cff; text-decoration: none; transition: color 0.3s;">Privacy Policy</a>
+      <a href="#" style="color: #6b8cff; text-decoration: none; transition: color 0.3s;">Terms of Service</a>
+      <a href="#" style="color: #6b8cff; text-decoration: none; transition: color 0.3s;">Contact</a>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
